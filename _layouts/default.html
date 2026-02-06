@@ -2,13 +2,16 @@
 <html>
 <head>
     <title>{{ page.title }} | {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
     <nav>
       <a href="/">Home</a>
     </nav>
     
-    {{ content }}
+    <main class="content-wrapper">
+        {{ content }}
+    </main>
     
     <footer>
       <p>&copy; 2026 - {{ site.title }}</p>
