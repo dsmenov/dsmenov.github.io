@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #1A3263;
+  --primary-color: #123458;
   --primary-hover: #122244;
-  --bg-color: #E8E2DB;
-  --text-color: #000000;
+  --bg-color: #F1EFEC;
+  --text-color: #030303;
   --secondary-text: #547792;
   --accent-color: #FAB95B;
   --glass-bg: rgba(26, 50, 99, 0.05);
