@@ -175,3 +175,16 @@ a {
     color: black !important;
   }
 }
+
+.profile-photo {
+  display: block;
+  margin: 3rem auto;
+  max-width: 500px;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.profile-photo:hover {
+  transform: translateY(-5px);
+}
