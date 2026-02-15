@@ -84,11 +84,13 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 - **Microsoft Certified:** Azure AI Fundamentals (AI-900), Azure Fundamentals (AZ-900)
 
-- **Oracle Cloud Infrastructure:** DBA Certified Professional, Generative AI Professional
+- **Oracle Certified:** DBA Certified Professional, Generative AI Professional
 
-- **Professional Scrum Master™ (PSM)**
+- **Scrum.org Certified:** Professional Scrum Master™ (PSM)
 
-- **PCEP:** Entry-Level Python Programmer
+- **Python Institute Certified:** Entry-Level Python Programmer
+
+[Full certification list](https://www.linkedin.com/in/dsmenov/details/certifications/)
 
 <br>
 
