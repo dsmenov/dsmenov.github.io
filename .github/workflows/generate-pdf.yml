@@ -18,18 +18,20 @@ jobs:
         run: mkdir -p assets/pdf
 
       - name: Convert Markdown to PDF
-        uses: baileyjm02/markdown-to-pdf@v1
+        uses: f-carey/markdown-to-pdf@v1
         with:
           input_path: cv.md
           output_dir: assets/pdf
-          build_html: false
+          # This action uses a pre-built image and should be much faster.
 
       - name: Verify and Commit
         run: |
-          echo "Checking for generated files in assets/pdf:"
-          ls -la assets/pdf/
+          echo "Checking for generated files..."
+          find assets/pdf -name "*.pdf"
           
           if [ ! -f assets/pdf/cv.pdf ]; then
+            echo "Searching root for any generated pdf just in case:"
+            find . -maxdepth 2 -name "*.pdf"
             echo "Error: assets/pdf/cv.pdf not found!"
             exit 1
           fi
