@@ -31,6 +31,16 @@
   <footer>
     <p>&copy; 2026 - {{ site.title }}</p>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const links = document.querySelectorAll('a');
+      links.forEach(link => {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener noreferrer');
+      });
+    });
+  </script>
 </body>
 
 </html>
