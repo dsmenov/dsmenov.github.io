@@ -37,5 +37,8 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add assets/pdf/cv.pdf
-          git commit -m "chore: update CV PDF" || exit 0
-          git push
+          if git commit -m "chore: update CV PDF [skip ci]"; then
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi

@@ -101,7 +101,27 @@ a {
     page-break-after: always;
   }
 
-  .btn {
-    display: none;
+  .btn,
+  .no-print,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    background-color: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+
+  main,
+  .content-wrapper {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  a {
+    text-decoration: none !important;
+    color: black !important;
   }
 }
