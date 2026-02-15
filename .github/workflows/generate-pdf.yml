@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'cv.md'
   workflow_dispatch:
 
 jobs:
