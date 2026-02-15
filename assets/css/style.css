@@ -2,13 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@400;700&display=swap");
 
 :root {
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
-  --bg-color: #0f172a;
-  --text-color: #f8fafc;
-  --secondary-text: #94a3b8;
-  --glass-bg: rgba(255, 255, 255, 0.05);
-  --glass-border: rgba(255, 255, 255, 0.1);
+  --primary-color: #1A3263;
+  --primary-hover: #122244;
+  --bg-color: #E8E2DB;
+  --text-color: #000000;
+  --secondary-text: #547792;
+  --accent-color: #FAB95B;
+  --glass-bg: rgba(26, 50, 99, 0.05);
+  --glass-border: rgba(84, 119, 146, 0.2);
 }
 
 body {
@@ -26,27 +27,6 @@ h1,
 h2,
 h3 {
   font-family: "Outfit", sans-serif;
-  color: #fff;
-}
-
-nav {
-  background: var(--glass-bg);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--glass-border);
-  padding: 1rem 2rem;
-  position: sticky;
-  top: 0;
-  z-index: 100;
-}
-
-nav a {
-  color: var(--text-color);
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-nav a:hover {
   color: var(--primary-color);
 }
 
@@ -63,6 +43,22 @@ footer {
   padding: 2rem;
   color: var(--secondary-text);
   border-top: 1px solid var(--glass-border);
+}
+
+footer a {
+  color: var(--secondary-text);
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+footer a i {
+  font-size: 1.5rem;
+  vertical-align: middle;
+}
+
+footer a:hover {
+  color: var(--primary-color);
 }
 
 /* Sample Micro-animations */
@@ -85,4 +81,27 @@ a {
 .btn:hover {
   background-color: var(--primary-hover);
   transform: translateY(-2px);
+}
+
+/* CV Specific Styles */
+.gdpr {
+  font-size: 0.85rem;
+  color: var(--secondary-text);
+  border: 1px solid var(--glass-border);
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  font-style: italic;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+@media print {
+  .page-break {
+    display: block;
+    page-break-after: always;
+  }
+
+  .btn {
+    display: none;
+  }
 }

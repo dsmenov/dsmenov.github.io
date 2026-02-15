@@ -1,0 +1,35 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'cv.md'
+  workflow_dispatch:
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create assets/pdf directory
+        run: mkdir -p assets/pdf
+
+      - name: Convert Markdown to PDF
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: cv.md
+          output_dir: assets/pdf
+          # The action will create cv.pdf in assets/pdf
+
+      - name: Commit and Push
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/pdf/cv.pdf
+          git commit -m "chore: update CV PDF" || exit 0
+          git push
