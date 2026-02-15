@@ -4,6 +4,11 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'cv.md'
+      - 'assets/css/print-style.css'
+      - 'assets/templates/template.html'
+      - '.github/workflows/generate-pdf.yml'
   workflow_dispatch:
 
 jobs:
@@ -13,34 +18,40 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc weasyprint
 
       - name: Create assets/pdf directory
         run: mkdir -p assets/pdf
 
       - name: Convert Markdown to PDF
-        uses: f-carey/markdown-to-pdf@v1
-        with:
-          input_path: cv.md
-          output_dir: assets/pdf
-          # This action uses a pre-built image and should be much faster.
+        run: |
+          pandoc cv.md -o assets/pdf/DmytroSmenov_Resume.pdf \
+            --template=assets/templates/template.html \
+            --css=assets/css/print-style.css \
+            --pdf-engine=weasyprint \
+            --metadata title="Dmytro Smenov CV"
 
       - name: Verify and Commit
         run: |
-          echo "Checking for generated files..."
-          find assets/pdf -name "*.pdf"
-          
-          if [ ! -f assets/pdf/cv.pdf ]; then
-            echo "Searching root for any generated pdf just in case:"
-            find . -maxdepth 2 -name "*.pdf"
-            echo "Error: assets/pdf/cv.pdf not found!"
-            exit 1
-          fi
-          
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/pdf/cv.pdf
-          if git commit -m "chore: update CV PDF [skip ci]"; then
-            git push origin main
+          if [ -f assets/pdf/DmytroSmenov_Resume.pdf ]; then
+            # Keep a generic copy for the website if needed, or link to the new name
+            cp assets/pdf/DmytroSmenov_Resume.pdf assets/pdf/cv.pdf
+            
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "github-actions[bot]@users.noreply.github.com"
+            git add assets/pdf/DmytroSmenov_Resume.pdf assets/pdf/cv.pdf
+            if git commit -m "chore: update CV PDF [skip ci]"; then
+              git push origin main
+            else
+              echo "No changes to commit"
+            fi
           else
-            echo "No changes to commit"
+            echo "Error: PDF not generated!"
+            exit 1
           fi
