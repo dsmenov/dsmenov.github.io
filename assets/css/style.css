@@ -179,7 +179,7 @@ a {
 .profile-photo {
   display: block;
   margin: 3rem auto;
-  max-width: 500px;
+  max-width: 1000px;
   border-radius: 5px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
