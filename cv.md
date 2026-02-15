@@ -18,9 +18,9 @@ I agree to the processing of personal data provided in this document for realizi
 
 Poland (Ready for relocation)
 
-dmytro.smenov@outlook.com
+<a href="mailto:dmytro.smenov@outlook.com">dmytro.smenov@outlook.com</a>
 
-+48 511116061
++48 511 116 061
 
 [linkedin.com](https://www.linkedin.com/in/dsmenov/)
 
@@ -82,13 +82,11 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 ## Certificates
 
-- **Microsoft Certified:** Azure AI Fundamentals (AI-900)
+- **Microsoft Certified:** Azure AI Fundamentals (AI-900), Azure Fundamentals (AZ-900)
 
-- **Oracle Cloud Infrastructure:** Generative AI Professional
+- **Oracle Cloud Infrastructure:** DBA Certified Professional, Generative AI Professional
 
 - **Professional Scrum Master™ (PSM)**
-
-- **Oracle DBA Certified Professional**
 
 - **PCEP:** Entry-Level Python Programmer
 

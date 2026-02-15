@@ -30,6 +30,56 @@ h3 {
   color: var(--primary-color);
 }
 
+/* Header & Navigation */
+.main-header {
+  background-color: rgba(241, 239, 236, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--glass-border);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  padding: 1rem 0;
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.nav-links a {
+  color: var(--secondary-text);
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+.nav-links i {
+  font-size: 1.2rem;
+}
+
+
 main,
 .content-wrapper {
   flex: 1;
