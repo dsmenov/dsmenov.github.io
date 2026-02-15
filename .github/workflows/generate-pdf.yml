@@ -40,12 +40,9 @@ jobs:
       - name: Verify and Commit
         run: |
           if [ -f assets/pdf/DmytroSmenov_Resume.pdf ]; then
-            # Keep a generic copy for the website if needed, or link to the new name
-            cp assets/pdf/DmytroSmenov_Resume.pdf assets/pdf/cv.pdf
-            
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/pdf/DmytroSmenov_Resume.pdf assets/pdf/cv.pdf
+            git add assets/pdf/DmytroSmenov_Resume.pdf
             if git commit -m "chore: update CV PDF [skip ci]"; then
               git push origin main
             else

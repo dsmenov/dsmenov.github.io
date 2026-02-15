@@ -76,3 +76,8 @@ p {
   margin-bottom: 5px;
   break-inside: avoid;
 }
+
+/* Hides elements in PDF/Print */
+.no-print {
+  display: none !important;
+}
