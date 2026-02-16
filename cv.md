@@ -3,7 +3,7 @@ title: "Dmytro Smenov CV"
 ---
 
 <p align="right">
-  <a href="/assets/pdf/DmytroSmenov_CV.pdf" target="_blank" class="btn no-print">
+  <a href="/assets/pdf/DmytroSmenovCV.pdf" target="_blank" class="btn no-print">
     <i class="bi bi-file-earmark-pdf"></i> Download PDF
   </a>
 </p>
