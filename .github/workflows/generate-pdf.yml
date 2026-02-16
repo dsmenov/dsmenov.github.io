@@ -31,7 +31,7 @@ jobs:
 
       - name: Convert Markdown to PDF
         run: |
-          pandoc cv.md -o assets/pdf/DmytroSmenov_Resume.pdf \
+          pandoc cv.md -o assets/pdf/Dmytro_Smenov_CV.pdf \
             --template=assets/templates/template.html \
             --css=assets/css/print-style.css \
             --pdf-engine=weasyprint \
@@ -39,10 +39,10 @@ jobs:
 
       - name: Verify and Commit
         run: |
-          if [ -f assets/pdf/DmytroSmenov_Resume.pdf ]; then
+          if [ -f assets/pdf/Dmytro_Smenov_CV.pdf ]; then
             git config --global user.name "github-actions[bot]"
             git config --global user.email "github-actions[bot]@users.noreply.github.com"
-            git add assets/pdf/DmytroSmenov_Resume.pdf
+            git add assets/pdf/Dmytro_Smenov_CV.pdf
             if git commit -m "chore: update CV PDF [skip ci]"; then
               git push origin main
             else
