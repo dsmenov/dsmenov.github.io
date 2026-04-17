@@ -82,13 +82,13 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 ## Certificates
 
-- **Microsoft Certified:** Azure AI Fundamentals (AI-900), Azure Fundamentals (AZ-900)
+- **Microsoft Certified:** Azure Administrator Associate AZ-104, Azure AI Fundamentals AI-900, Azure Fundamentals AZ-900, GitHub Copilot GH-300, GitHub Foundations GH-900
 
 - **Oracle Certified:** DBA Certified Professional, Generative AI Professional
 
 - **Scrum.org Certified:** Professional Scrum Master™ (PSM)
 
-- **Python Institute Certified:** Entry-Level Python Programmer
+- **Python Institute Certified:** Python Programmer
 
 [Full certification list](https://www.linkedin.com/in/dsmenov/details/certifications/)
 
