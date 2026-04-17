@@ -104,8 +104,4 @@ Ukrainian Engineering Pedagogics Academy (2003 – 2009)
 
 ## Languages
 
-- **English:** C1
-
-- **Polish:** C1
-
-- **Ukrainian / Russian:** Native
+**English:** C1 &nbsp;&nbsp;&nbsp; **Polish:** C1 &nbsp;&nbsp;&nbsp; **Ukrainian / Russian:** Native
