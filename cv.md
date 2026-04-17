@@ -82,7 +82,7 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 ## Certificates
 
-- **Microsoft Certified:** Azure Administrator Associate AZ-104, Azure AI Fundamentals AI-900, Azure Fundamentals AZ-900, GitHub Copilot GH-300, GitHub Foundations GH-900
+- **Microsoft Certified:** DevOps Engineer Expert AZ-400, Azure Administrator Associate AZ-104, Azure AI Fundamentals AI-900, Azure Fundamentals AZ-900, GitHub Copilot GH-300, GitHub Foundations GH-900
 
 - **Oracle Certified:** DBA Certified Professional, Generative AI Professional
 
