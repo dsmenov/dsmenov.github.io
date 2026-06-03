@@ -372,7 +372,7 @@ main,
 .profile-photo {
   display: block;
   margin: 3rem auto;
-  max-width: 280px;
+  max-width: 100%;
   width: 100%;
   border-radius: 20px;
   border: 1px solid var(--border-color);
@@ -613,7 +613,7 @@ footer p {
   
   .profile-photo {
     margin: 2rem auto !important;
-    max-width: 220px !important;
+    max-width: 100% !important;
   }
 
   .gdpr {
