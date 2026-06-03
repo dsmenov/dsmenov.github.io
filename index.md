@@ -26,4 +26,5 @@ My values:
 
 - I love learning and sharing knowledge. I keep improving my skills, and sharing them with others.
 
-![Dmytro Smenov](/assets/img/profile.jpg){: .profile-photo}
+<img src="/assets/img/profile.jpg" alt="Dmytro Smenov" class="profile-photo">
+
