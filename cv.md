@@ -36,7 +36,7 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 <br>
 
-## Current Role Annna
+## Current Role
 
 **DevOps Engineer / Oracle DBA / Scrum Master**
 
