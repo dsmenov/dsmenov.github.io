@@ -562,3 +562,68 @@ footer p {
     page-break-after: always !important;
   }
 }
+
+/* Mobile Responsiveness Overrides */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2rem !important;
+    margin-bottom: 1.25rem !important;
+  }
+  
+  h2 {
+    font-size: 1.4rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 1rem !important;
+    gap: 0.25rem !important;
+  }
+
+  h2::after {
+    margin-left: 0.5rem !important;
+  }
+  
+  .nav-container {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    padding: 0 1rem !important;
+    text-align: center !important;
+  }
+  
+  .logo a {
+    font-size: 1.2rem !important;
+  }
+  
+  .nav-links {
+    gap: 1.25rem !important;
+    width: 100% !important;
+    justify-content: center !important;
+  }
+  
+  main,
+  .content-wrapper {
+    margin: 1.5rem auto !important;
+    padding: 0 1rem !important;
+  }
+  
+  .content-wrapper h2 + ul,
+  .content-wrapper p + ul {
+    padding: 1.25rem !important;
+    margin: 1rem 0 2rem 0 !important;
+    border-radius: 12px !important;
+  }
+  
+  .profile-photo {
+    margin: 2rem auto !important;
+    max-width: 220px !important;
+  }
+
+  .gdpr {
+    padding: 1rem !important;
+    font-size: 0.8rem !important;
+    margin-bottom: 2rem !important;
+    border-radius: 8px !important;
+  }
+
+  footer {
+    padding: 2rem 1rem !important;
+  }
+}
