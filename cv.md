@@ -30,9 +30,11 @@ Poland (Ready for relocation)
 
 ## Summary
 
-DevOps Engineer with an entrepreneur’s DNA. I specialize in Azure, automation, and AI-integrated workflows, but my real strength is understanding the 'why' behind the tech.
+Senior DevOps Engineer and Scrum Master with over 15 years of IT experience spanning infrastructure automation, database administration, and project management.
 
-I’m not just managing pipelines; I’m building infrastructure that supports organizational goals and long-term efficiency.
+Expert in building highly automated CI/CD pipelines, optimizing private cloud DBaaS using Azure DevOps and Ansible, and driving agile delivery.
+
+Combines deep technical expertise with an ownership mindset to align IT infrastructure with strategic business goals.
 
 <br>
 
@@ -44,13 +46,13 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 - **Azure DevOps & Automation:** hands-on experience utilizing Azure Boards for agile management, Azure Repos for version control, and Pipeline automation to streamline CI/CD workflows.
 
-- **Infrastructure as Code:** Leveraging Ansible within the Azure DevOps environment to automate processes for a private cloud Database as a Service (DBaaS) offering.
+- **Infrastructure as Code:** Automated DBaaS provisioning processes using Ansible and Azure DevOps, reducing environment deployment time by 70% and eliminating manual configuration errors.
 
 - **AI-Enhanced Workflow:** Actively utilizing AI assistants to optimize scripting, troubleshooting, and daily operations.
   - Deep understanding of AI fundamentals and the operational flow of modern AI technologies.
   - Proactively staying updated on the latest AI breakthroughs to implement innovative solutions.
 
-- **Database Operations:** Providing and monitoring Oracle Database services on Exadata systems for various ING Bank units.
+- **Database Operations:** Maintained 99.9% uptime for business-critical Oracle Database services on Exadata systems supporting multiple ING units by implementing proactive monitoring via Prometheus and Grafana
 
 - **Agile Leadership:** Serving as a Scrum Master to facilitate team efficiency and ensure goal alignment.
 
@@ -70,13 +72,15 @@ I’m not just managing pipelines; I’m building infrastructure that supports o
 
 ## Technical Skills
 
-- **Cloud/DevOps:** Azure DevOps (Pipelines, Boards, Repos), Azure Cloud, Ansible, Prometheus & Grafana
+- **CI/CD & IaC:** Azure DevOps (Pipelines, Boards, Repos), Azure Cloud, Ansible, Bicep, Terraform
 
-- **AI/ML:** AI Assistant Integration, GenAI Fundamentals, Azure AI Fundamentals
+- **Observability & Monitoring:** Prometheus, Grafana, OTEL, Oracle EM Cloud Control
 
-- **Databases:** Oracle DB, Oracle EM Cloud Control, Exadata, SQL
+- **AI/ML:** AI Assistant Integration, GenAI Fundamentals, Azure AI Fundamentals, Local LLM tuning
 
-- **Business:** Ownership Mindset, Stakeholder Management, Agile Methodologies
+- **Databases:** Oracle DB, MySQL, PostgreSQL
+
+- **Methodologies:** Agile/Scrum, Stakeholder Management, Ownership Mindset
 
 <br>
 
