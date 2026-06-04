@@ -26,5 +26,13 @@ My values:
 
 - I love learning and sharing knowledge. I keep improving my skills, and sharing them with others.
 
-<img src="/assets/img/profile.jpg" alt="Dmytro Smenov" class="profile-photo">
+<div class="video-frame-container no-print">
+  <iframe src="https://www.youtube.com/embed/yW3AAptQXEM" title="Dmytro Smenov - Me" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div class="video-link-wrapper no-print">
+  <a href="https://youtu.be/yW3AAptQXEM" class="video-link-btn" target="_blank" rel="noopener">
+    <i class="bi bi-youtube"></i> Watch "Me" on YouTube
+  </a>
+</div>
+
 
