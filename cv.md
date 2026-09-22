@@ -40,19 +40,17 @@ Combines deep technical expertise with an ownership mindset to align IT infrastr
 
 ## Current Role
 
-**DevOps Engineer / Oracle DBA / Scrum Master**
+**DevOps Monitoring Engineer / Scrum Master**
 
-[ING Hubs Poland](https://inghubspoland.com/) / 2020 – Present
+[ING Hubs Poland](https://inghubspoland.com/) / 2020 - Present
+
+- **DBaaS Monitoring:** Maintained 99.9% uptime for business-critical Oracle DB services on Exadata supporting multiple ING units by implementing proactive monitoring with Open Telemetry, Prometheus and Grafana
 
 - **Azure DevOps & Automation:** hands-on experience utilizing Azure Boards for agile management, Azure Repos for version control, and Pipeline automation to streamline CI/CD workflows.
 
 - **Infrastructure as Code:** Automated DBaaS provisioning processes using Ansible and Azure DevOps, reducing environment deployment time by 70% and eliminating manual configuration errors.
 
-- **AI-Enhanced Workflow:** Actively utilizing AI assistants to optimize scripting, troubleshooting, and daily operations.
-  - Deep understanding of AI fundamentals and the operational flow of modern AI technologies.
-  - Proactively staying updated on the latest AI breakthroughs to implement innovative solutions.
-
-- **Database Operations:** Maintained 99.9% uptime for business-critical Oracle Database services on Exadata systems supporting multiple ING units by implementing proactive monitoring via Prometheus and Grafana
+- **AI-Enhanced Workflow:** Actively utilizing AI power to optimize scripting, troubleshooting, and daily operations.
 
 - **Agile Leadership:** Serving as a Scrum Master to facilitate team efficiency and ensure goal alignment.
 
@@ -60,25 +58,25 @@ Combines deep technical expertise with an ownership mindset to align IT infrastr
 
 ## Professional History
 
-**Oracle Database Administrator** / [IBM Poland](https://www.ibm.com) / 2019 – 2020
+**Oracle Database Administrator** / [IBM Poland](https://www.ibm.com) / 2019 - 2020
 
-**Web / System Administrator** / Entrepreneur / 2015 – 2019
+**Web / System Administrator** / Entrepreneur / 2015 - 2019
 
-**Project Manager** / ISP Artnet / 2008 – 2015
+**Project Manager** / ISP Artnet / 2008 - 2015
 
-**Network Engineer** / ISP Artnet / 2006 – 2008
+**Network Engineer** / ISP Artnet / 2006 - 2008
 
 <br>
 
 ## Technical Skills
 
-- **CI/CD & IaC:** Azure DevOps (Pipelines, Boards, Repos), Azure Cloud, Ansible, Bicep, Terraform
+- **CI/CD & IaC:** Azure DevOps, Azure Cloud, Ansible, Bicep
 
 - **Observability & Monitoring:** Prometheus, Grafana, OTEL, Oracle EM Cloud Control
 
 - **AI/ML:** AI Assistant Integration, GenAI Fundamentals, Azure AI Fundamentals, Local LLM tuning
 
-- **Databases:** Oracle DB, MySQL, PostgreSQL
+- **Databases:** Oracle DB, MySQL
 
 - **Methodologies:** Agile/Scrum, Stakeholder Management, Ownership Mindset
 
@@ -102,7 +100,7 @@ Combines deep technical expertise with an ownership mindset to align IT infrastr
 
 **Master's Degree in Management of Technological Organizations**
 
-Ukrainian Engineering Pedagogics Academy (2003 – 2009)
+Ukrainian Engineering Pedagogics Academy (2003 - 2009)
 
 <br>
 

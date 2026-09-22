@@ -5,3 +5,6 @@ _site/
 .jekyll-metadata
 .bundle/
 vendor/
+
+# VS Code
+dsmenov.github.io.code-workspace
